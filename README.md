@@ -97,6 +97,15 @@ seleccionamos los sistemas operativos y el lenguaje de programación usado
 el codigo generado lo guardamos en un archivo llamado: .gitignore
 
 
+(Guardamos en git lo hecho)
+git add .
+git commit -m "add files 26/5/25"
+git push origin main
+
+## FLUJO DE TRABAJO
+
+
+
 ## PIP
 # ¿Qué es pip?
 pip es el gestor de paquetes oficial para Python.
