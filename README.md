@@ -130,7 +130,6 @@ git commit -m "add files 27/5/25"
 git push origin main
 
 
-
 ## PIP
 # ¿Qué es pip?
 pip es el gestor de paquetes oficial para Python.
@@ -138,7 +137,7 @@ pip es el gestor de paquetes oficial para Python.
 # ¿Para qué sirve?
 Permite instalar, actualizar y desinstalar librerías o paquetes de Python fácilmente desde la línea de comandos.
 
-Descarga las librerías desde el repositorio oficial llamado PyPI (Python Package Index).
+Descarga las librerías desde el repositorio oficial llamado PyPI (Python Package Index)o PIP
 
 Te ayuda a usar código ya hecho por otros para no tener que programar todo desde cero.
 
@@ -148,6 +147,23 @@ verificar pip esta instalado: pip3 -V
 La respuesta: pip 25.0.1 from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pip (python 3.12)
 
  Actualmente estamos usando el pip del sistema, no el de un entorno virtual.
+
+# CONOZCAMOS MAS DE PIP
+
+Entramos a: pypi
+![Texto alternativo](imagenes/image_4.png)
+![Texto alternativo](imagenes/image_5.png)
+
+Si buscamos Matplotlib
+
+![Texto alternativo](imagenes/image_6.png)
+
+Encontraremos la ultima versión y su codigo de importación
+![Texto alternativo](imagenes/image_7.png)
+
+En la documentación veremos ejemplos de usar todos los métodos
+![Texto alternativo](imagenes/image_8.png)
+
 
 # Paso a seguir, crear el entorno virtual.
 
