@@ -104,6 +104,31 @@ git push origin main
 
 ## FLUJO DE TRABAJO
 
+creamos la carpeta game
+Creamos el archivo main.py y pegamos el codigo tomado de la fuente  (ver code)
+abrimos desde la terminal, entrando a la carpeta game
+
+cd game
+
+y abrimos el archivo:
+
+python3 main.py
+
+```sh
+cd game
+python3 main.py
+```
+
+usamos el juego
+
+nos regresamos a la carpeta padre: cd ..
+corroboramos donde estamosubicado: pwd
+
+(Guardamos en git lo hecho)
+git add .
+git commit -m "add files 27/5/25"
+git push origin main
+
 
 
 ## PIP
