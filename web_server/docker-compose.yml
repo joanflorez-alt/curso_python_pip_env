@@ -1,0 +1,13 @@
+services:
+
+#app-csv: nombre del archivo
+  web_server: 
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:                   #enlace con los repositorios locales
+      - .:/app
+
+
+    ports:                   #puerto de la aplicacion
+      - "8000:8000"
